@@ -1,5 +1,6 @@
 collection = [1, 2, 3, 4]
 array2 = []
+
 def my_each(array)
   array2 = []
   count = 0
@@ -11,4 +12,4 @@ def my_each(array)
 end
 
 
-my_each(collection){return collection}
+my_each(collection){ |n| return n}
