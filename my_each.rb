@@ -8,7 +8,6 @@ def my_each(array)
     yield array[count]
     count +=1
   end
-  yield(array2)
 end
 
 
