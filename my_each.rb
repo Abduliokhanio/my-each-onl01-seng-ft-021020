@@ -1,3 +1,3 @@
-def my_each do 
+def my_each
   
 end
