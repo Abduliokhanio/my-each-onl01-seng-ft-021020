@@ -11,4 +11,4 @@ def my_each(array)
 end
 
 
-my_each(collection){puts collection}
+my_each(collection){return collection}
