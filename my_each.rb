@@ -12,4 +12,4 @@ def my_each(array)
 end
 
 
-my_each(collection){ |n| return n}
+my_each(collection){ |n| return "#{n}"}
