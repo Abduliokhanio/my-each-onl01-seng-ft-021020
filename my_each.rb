@@ -5,7 +5,7 @@ def my_each(array)
   array2 = []
   count = 0
   while count != array.length
-    array2.push(array[count])
+    yield array[count]
     count +=1
   end
   yield(array2)
